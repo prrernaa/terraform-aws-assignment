@@ -1,0 +1,13 @@
+[
+  {
+    "name": "express-container",
+    "image": "880690593684.dkr.ecr.ap-south-1.amazonaws.com/express-app:latest",
+    "essential": true,
+    "portMappings": [
+      {
+        "containerPort": 3000,
+        "hostPort": 3000
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "name": "flask-container",
+    "image": "880690593684.dkr.ecr.ap-south-1.amazonaws.com/flask-app:latest",
+    "essential": true,
+    "portMappings": [
+      {
+        "containerPort": 5000,
+        "hostPort": 5000
+      }
+    ]
+  }
+]
